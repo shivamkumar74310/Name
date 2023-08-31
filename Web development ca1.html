@@ -1,0 +1,68 @@
+ <!-- create a form in html for collecting details for applying a passport --> -->
+
+
+<!DOCTYPE html>
+<html> 
+
+<head>
+
+    <title>Passport Application Form</title>
+
+</head>
+
+<body >
+    <!-- style="background-color:rgb(242, 245, 239);" -->
+    <img src="https://static.vecteezy.com/system/resources/previews/016/469/320/non_2x/aircraft-airplane-flight-taking-off-plane-logo-vector.jpg" style="width:500px;height:100px;" alt="Italian Trulli">
+
+    <img align="right" src="https://www.logolynx.com/images/logolynx/17/178336085582b749d6ce72fea0c22120.jpeg" style="width:100px;height:100px;" alt="Italian Trulli">
+
+    <h2><center>Passport Application Form</center></h2>
+
+    <form action="/submit_application" method="post">
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label for="fname">First Name:</label><br>
+
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last Name:</label><br>
+
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="dob">Date of Birth:</label><br>
+
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="pob">Place of Birth:</label><br>
+
+            <input type="text" id="pob" name="pob"><br>
+
+        </fieldset> <br> 
+
+        <fieldset>
+             
+            <legend>Contact Information</legend>
+
+            <label for="address">Address:</label><br>
+
+            <input type="text" id="address" name="address"><br>
+
+            <label for="email">Email:</label><br>
+
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Phone Number:</label><br>
+
+            <input type="tel" id="phone" name="phone"><br>
+
+        </fieldset> <br>
+
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
+
